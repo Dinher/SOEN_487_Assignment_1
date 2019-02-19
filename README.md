@@ -61,9 +61,9 @@ Routes
 - `/files/update/<file_id>`
 
 #### Reference and resources
-1.https://stackoverflow.com/questions/34495632/how-to-implement-login-required-decorator-in-flask
-2.https://steelkiwi.com/blog/jwt-authorization-python-part-1-practise/
-3.https://www.codementor.io/garethdwyer/building-a-crud-application-with-flask-and-sqlalchemy-dm3wv7yu2
-4.https://realpython.com/token-based-authentication-with-flask/
-5.https://medium.com/@riken.mehta/full-stack-tutorial-3-flask-jwt-e759d2ee5727
-6.https://codeburst.io/jwt-authorization-in-flask-c63c1acf4eeb
+1. https://stackoverflow.com/questions/34495632/how-to-implement-login-required-decorator-in-flask
+2. https://steelkiwi.com/blog/jwt-authorization-python-part-1-practise/
+3. https://www.codementor.io/garethdwyer/building-a-crud-application-with-flask-and-sqlalchemy-dm3wv7yu2
+4. https://realpython.com/token-based-authentication-with-flask/
+5. https://medium.com/@riken.mehta/full-stack-tutorial-3-flask-jwt-e759d2ee5727
+6. https://codeburst.io/jwt-authorization-in-flask-c63c1acf4eeb
