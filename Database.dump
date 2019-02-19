@@ -1,0 +1,22 @@
+[<User 1: Nguyen mail@mail.com b'$2b$12$Db2tWhuzLJuCs4qIQW/aEe4O/SvVuyMDdPr/8QKejXjczEuMaBBZy'][<Project 2: project 2 1, <Project 3: Comp 472 1][<User 1: test.py 2019-02-17 22:43:15.955150 print('hello world'), <User 3: module.py 2019-02-17 22:52:58.084420 # https://www.codementor.io/garethdwyer/building-a-crud-application-with-flask-and-sqlalchemy-dm3wv7yu2
+# https://realpython.com/token-based-authentication-with-flask/
+import os
+
+from flask import Flask
+from config import Config								# set up config options
+
+def get_secret():
+	return app.config["SECRET_KEY"]
+
+app = Flask(__name__)									# Enable flask application
+app.config.from_object(Config)
+
+# Database
+from routes import *
+with app.app_context():
+	db.init_app(app)									# removes cyclic dependency
+	db.create_all()
+	db.session.commit()
+
+if __name__ == "__main__":
+	app.run(debug=True) , <User 4: test3.py 2019-02-18 00:04:32.463833 # here is the code for test3.py, <User 5: game.py 2019-02-18 00:09:49.024704 # Game code here, <User 6: AI.py 2019-02-18 00:10:31.758431 # AI code here]
