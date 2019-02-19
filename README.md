@@ -6,7 +6,9 @@ Code Repository is a simple web application which leverages RESTFUL stateless pr
 With the repository on the local system, activate a virtual environment 
 ```
 c:/.../code_repositiory/
->> pip -m venv venv && cd venv/Scripts/ && activate
+>> pip -m venv venv
+>> cd venv/Scripts/
+>> activate
 ```
 
 Install the dependencies
@@ -43,7 +45,7 @@ Functional
 - `/api/files` - JSON dump of Files table
 - `/api/showDatabase` - JSON output of entire DB
 - `/dumpDatabase` - prints database file
-- '/shwoDatabase' - HTML database output
+- `/showDatabase` - HTML database output
 
 Routes
 - `/`
